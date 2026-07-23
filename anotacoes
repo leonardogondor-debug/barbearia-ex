@@ -47,3 +47,6 @@ Pasta CSS/ com os arquivos de estilos (caso tenha customizações).
 Pasta IMG/ com as imagens utilizadas.
 
 Compartilhar o link do repositório.
+
+npx sass estilos/estilos.scss css/styles.css --watch
+
