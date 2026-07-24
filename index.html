@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="body-color-dar">
     <header>
         <img src="img/logo-tablet.jpg" srcset="
                 img/logo-celular.jpg 400w,
@@ -19,11 +19,16 @@
                 33vw" alt="logo da barbearia">
 
         <!--menu-navegacao-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Barbearia Estilo Livre</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">BARBEARIA ESTILO LIVRE</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">CASA</a>
                         </li>
@@ -37,7 +42,7 @@
                             <a class="nav-link" href="#">DEPOIMENTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTATOS</a>
+                            <a class="nav-link" href="#">CONTATO</a>
                         </li>
                     </ul>
                 </div>
@@ -45,26 +50,7 @@
         </nav>
     </header>
 
-    <section class="position-relative">
-        <img src="img/banner-celular.jpg" srcset="
-                img/banner-celular.jpg 400w,
-                img/banner-tablet.jpg 800w,
-                img/banner-dt.jpg 1200w" sizes="
-                (max-width: 600px) 100vw,
-                (max-width: 1200px) 50vw,
-                33vw" class="img-fluid w-100" alt="Imagem de destaque">
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
-        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-            <h1 class="fw-bold">Estilo e Confiança</h1>
-            <p class="lead">A barbearia que combina tradição e modernidade.</p>
-            <ul>
-                <li id="servicos">SERVICOS</li>
-                <li id="contatos">CONTATOS</li>
-            </ul>
-        </div>
-    </section>
 
-
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
