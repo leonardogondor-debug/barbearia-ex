@@ -1,3 +1,11 @@
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+* {
+    margin: 0 !important;
+}
 
-/*# sourceMappingURL=styles.css.map */
+.bg-dark {
+    background-color: black !important;
+}
+
+.white {
+    background-color: #fff;
+}
